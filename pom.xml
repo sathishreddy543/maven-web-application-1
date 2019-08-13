@@ -110,9 +110,14 @@
 				<version>2.5.1</version>
 				<inherited>true</inherited>
 				<configuration>
+                                     <url>http://13.232.200.107:8090/manager/html</url>
+                                     <server>TomcatServer</server>
+                                     <path>/maven-web-application</path>
+                                </configuration>
+			<!--	<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>
+				</configuration>  -->
 			</plugin>
 		</plugins>
 	</build>
