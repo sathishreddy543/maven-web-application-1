@@ -103,7 +103,7 @@
 	</distributionManagement>-->
 	<distributionManagement>
 	    <repository>
-	      <id>TomcatServer</id>
+	      <id>tomcat</id>
 	      <name>maven-web-application</name>
 	      <url>http://13.232.200.107:8090/manager/html</url>
 	    </repository>
