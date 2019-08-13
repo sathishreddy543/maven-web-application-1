@@ -87,7 +87,6 @@
 		</dependency>
 
 	</dependencies>
-	<!--
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -100,7 +99,7 @@
 	      <url>http://13.127.4.198:8081/repository/paytm-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-	-->
+	
 	<build>
 		<finalName>maven-web-application</finalName>
 		<plugins>
