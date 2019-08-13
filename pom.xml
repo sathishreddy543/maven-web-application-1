@@ -100,6 +100,13 @@
 	      <url>http://13.127.4.198:8081/repository/paytm-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>-->
+	<distributionManagement>
+	    <repository>
+	      <id>TomcatServer</id>
+	      <name>maven-web-application</name>
+	      <url>http://13.232.200.107:8090/manager/html</url>
+	    </repository>
+	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
@@ -109,15 +116,15 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<inherited>true</inherited>
-				<configuration>
+			<!--	<configuration>
                                      <url>http://13.232.200.107:8090/manager/html</url>
                                      <server>TomcatServer</server>
                                      <path>/maven-web-application</path>
-                                </configuration>
-			<!--	<configuration>
+                                </configuration> -->
+				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>  -->
+				</configuration> 
 			</plugin>
 		</plugins>
 	</build>
