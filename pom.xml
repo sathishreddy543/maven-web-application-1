@@ -88,25 +88,18 @@
 		</dependency>
 
 	</dependencies>
-	<!--
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.4.198:8081/repository/paytm-releases/</url>
+	      <url>http://13.233.149.99:8081/repository/freestle-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.4.198:8081/repository/paytm-snapshot/</url>
+	      <url>http://13.233.149.99:8081/repository/freestyle-snapshot/</url>
 	    </snapshotRepository>
-	</distributionManagement>-->
-	<distributionManagement>
-	    <repository>
-	      <id>tomcat</id>
-	      <name>maven-web-application</name>
-	      <url>http://13.232.200.107:8090/manager/html</url>
-	    </repository>
 	</distributionManagement>
 	
 	<build>
